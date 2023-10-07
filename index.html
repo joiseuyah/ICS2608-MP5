@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Machine Problem 5</title>
+    <style>
+      .button-container {
+        display: inline-block;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="calculator" style="background-color: #8fe381"> 
+      <h3>1. Calculator</h3>
+
+      <input type="number" id="num1" placeholder="Number 1" />
+      <input type="number" id="num2" placeholder="Number 2" />
+
+      <div class="button-container"><button type="button" id="add">+</button></div>
+      <div class="button-container"><button type="button" id="subtract">-</button></div>
+      <div class="button-container"><button type="button" id="multiply">*</button></div>
+      <div class="button-container"><button type="button" id="divide">/</button></div>
+
+      <div><input type="number" id="result" placeholder="Result" /></div>
+
+      <div style="background-color: #bfeeb7">
+        <h3>2. Passing Grade only (75 and Above) Concatenate</h3>
+                                      
+        <input
+          type="number"
+          id="grade-input-box"
+          placeholder="Enter your grade"
+        />
+        <button type="button" id="submit-button">Submit</button>
+        <div id="passing-grades-display"></div>
+
+        <div style="background-color: #87cefa">
+          <h3>3. Odd, Even or Neutral Checker</h3>
+          <p>Enter a number to check if it's odd, even, or neutral:</p>
+
+          <input type="number" id="numberInput" />
+          <button type="button" onclick="checkNumber()">Submit</button>
+          <div id="answer" ></div>
+
+          <div style="background-color:  #abdbfa">
+            <h3>4. The Sum of Numbers Calculator</h3>
+
+            <input type="number" id="number" placeholder="Enter a number" />
+            <button type="button" onclick="calculateSum()">
+              Calculate Sum
+            </button>
+            <p id="sum"></p>
+
+            <div style="background-color: #ffc2d1">
+              <h3>5. Magic Number</h3>
+              <label for="numberInput">Enter a number:</label>
+              <input type="number" id="inputNumber" />
+              <button type="button" onclick="displayFibonacciSequence()">
+                Submit
+              </button>
+              <div id="output"></div>
+              <div style="background-color: #f9d8e1">
+                <h3>6. Nested Loop</h3>
+                <label for="numInput">Enter a number:</label>
+                <input type="number" id="numInput" />
+                <button id="displayButton">Submit</button>
+                <div id="asteriskOutput"></div>
+          
+              <script src="script.js"></script>
+            </body>
+          </html>
+          
